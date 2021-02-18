@@ -9,3 +9,4 @@
 
 rootProject.name = 'SudokuSolver'
 include 'Sudoku'
+include 'SudokuSolvingCode'

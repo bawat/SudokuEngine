@@ -6,7 +6,7 @@ package Sudoku;
  *
  */
 public class SudokuDrawer {
-	public static String sudokuToString(Sudoku sudoku) {
+	static String sudokuToString(Sudoku sudoku) {
 		String result = "#".repeat(sudoku.getWidth()), footer = result;
 		result += System.lineSeparator();
 		

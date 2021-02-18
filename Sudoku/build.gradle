@@ -11,6 +11,12 @@ plugins {
     id 'java-library'
 }
 
+configurations {
+	instrumentedJars {
+		canBeConsumed = true
+	}
+}
+
 repositories {
     // Use jcenter for resolving dependencies.
     // You can declare any Maven/Ivy/file repository here.

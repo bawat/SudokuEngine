@@ -8,3 +8,6 @@
  */
 
 rootProject.name = 'SudokuSolvingCode'
+include ':Sudoku'
+
+project(':Sudoku').projectDir = new File("../Sudoku")
